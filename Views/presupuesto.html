@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos-css/movilpc.css">
+    <title>PALESTINAHOY</title>
+</head>
+
+<body>
+    <!-- Menu de navegación superior -->
+    <header class="header2">
+        <div class="header3">
+            <a href="../index.html"> <img src="../imagenes/PALESTINAHOY1.png" width="250" height="70"  class="logopalestina" alt="logo pagina web"></a>
+            <a href="../index.html" class="estilosmenu"><span class="contenidopc"> Inicio </span></a>
+            <a href="noticias.html" class="estilosmenu"><span class="contenidopc">Últimas Noticias</span></a>
+            <a href="galeria.html" class="estilosmenu"><span class="contenidopc">Fotos </span></a>
+            <a href="portfolio.html" class="estilosmenu"><span class="contenidopc">Mártires</span></a>
+            <a href="presupuesto.html" class="estilosmenu"><span class="contenidopc"> <strong>Contacto</strong></span></a>
+        </div>
+
+        <!-- Boton de inicio de sesion del menu de navegación superior -->
+        <div class="iniciosesion">
+            <a href="Registro.html" class="Registro"> <span class="textbutton"><strong>Iniciar sesión</strong></span></a>
+        </div> 
+    </header>
+    <!-- abrimos main -->
+    <main id="main-form">
+        
+        <!-- añadimos contenedor con foto para la parte superior del main -->
+        <div id="fondoform">
+            <img id="foto1form" src="../imagenes/ramadan2.jpg" width="100" height="600" alt="foto enseñando destruccion de gaza a causa de los bombardeos">
+        </div>
+        <!-- Insertamos contenedor para crear formulario-->
+        <form action="../index.html">
+        <div id="container">
+            <div id="row">
+            <!-- Insertamos bloque negro en la parte superior del contenedor-->
+                <div class="contbloque">
+                    <p id="bloquenegro"></p>
+                </div>
+                <div class="contbloque">
+                    <p id="bloquenegro2"></p>
+                </div>
+                <!-- añadimos titulo al contenedor -->
+                <h1 id="tituloformul">
+                    Contáctenos
+                </h1>
+
+                <!-- añadimos texto inferior al titulo -->
+                <section>
+                    <div id="nombrebody">
+                        <p>
+                        <!-- Elemento strong para destacar el texto -->
+                        <strong id="textinf">
+                            Para consultas,complete el siguiente formulario:
+                        </strong>
+                        </p>
+                        <!-- añadimos salto de linea para que se vea mas separado -->
+                        <p>&nbsp;</p>
+                    </div>
+                </section>
+
+                <!-- añadimos label mas input para crear formulario -->
+                <!-- añadimos primer label mas input -->
+                <div id="form-item">
+                    <label>
+                        <strong class="estrella">
+                            Nombre
+                            <img src="../imagenes/estrellaroja.svg" alt="estrella roja" width="10" height="7" class="estrella"> <br>
+                        </strong>
+                    </label>
+                    <input type="text" class="edit-items" name="name"  maxlength="100" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}"  required="required">
+                </div>
+
+                <!-- añadimos segundo label mas input -->
+                <div id="form-mail">
+                    <label>
+                        <strong class="estrella">
+                            Correo electónico
+                             <img src="../imagenes/estrellaroja.svg" alt="estrella roja" width="10" height="7"  class="estrella"> <br>
+                        </strong>
+                    </label>
+                    <input type="email" class="edit-items" name="mail"  maxlength="100" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required="required">
+                </div>
+
+                <!-- añadimos tercer label mas input -->
+                  <div id="form-telf">
+                    <label>
+                        <strong class="estrella">
+                            Teléfono 
+                            <img src="../imagenes/estrellaroja.svg" alt="estrella roja" width="10" height="7" class="estrella"><br>
+                        </strong>
+                    </label>
+                    <input type="number" class="edit-items" name="number"  required="required" >
+                </div>
+
+                <!-- añadimos cuarto label mas input -->
+                <div id="form-asunto">
+                    <label>
+                        <strong class="estrella">
+                            Asunto
+                            <img src="../imagenes/estrellaroja.svg" alt="estrella roja" width="10" height="7" class="estrella"> <br>
+                        </strong>
+                    </label>
+                    <input type="text" class="edit-items" name="asunto"  maxlength="100" pattern="[A-Za-záéíóúÁÉÍÓÚñÑs]{2,30}"  required="required" >
+                </div>
+
+                <!-- añadimos quinto label mas input -->
+                <div id="form-mensaje">
+                    <label>
+                        <strong class="estrella">
+                            Mensaje
+                            <img src="../imagenes/estrellaroja.svg" alt="estrella roja" width="10" height="7"  class="estrella"><br>
+                        </strong>
+                    </label>
+                    <div class="text-area">
+                        <textarea class="text-area" name="Mensaje" id="edit-mensaje-0-value" cols="60" rows="6" maxlength="600" placeholder="Limitado a 600 caracteres" required="required"></textarea>
+                    </div>
+                </div>
+
+                <!-- añadimos sexto label mas input checkbox -->
+                <div id="checkbox">
+                    <input type="checkbox" required aria-required="true">
+                    <label>
+                        <strong>
+                                Acepto los términos y condiciones
+                        </strong>
+                    </label>
+                </div>
+            </div>
+
+                <!-- añadimos boton de enviar mensaje cuando se rellene el formulario  -->
+            <div id="enviar">
+                <input type="submit" id="edit-submit" name="op" value="Enviar Mensaje">
+            </div>
+            
+        </div>
+        </form>
+    </main>
+
+      <!-- abrimos footer -->
+      <footer class="footer1">
+        <!-- Creamos section para nueva seccion y subcontenedor para añadir datos  -->
+            <section class="containerfoot">
+                <div class="footlogo"> 
+
+                <!-- Añadimos etiqueta a href para insertar logo -->
+                    <a href="file:///C:/Users/acer/Desktop/paginaweb/index.html" id="logoposicion">
+                        <img src="../imagenes/logoolivo.png" width="100" height="100" alt="logo olivo con bandera palestina" class="logoolivo">
+                    </a>
+
+                    <!-- añadimos p para añadir texto -->
+                    <p class="estilofoot">
+                        © 2024 Red de medios PalestinaHoy
+                    </p>
+                    
+                    <p class="estilofoot">
+                        Producida por Rocío Aylen Gimenez Teti
+                    </p>
+
+                    <!-- añadimos elemento p mas href para añadir link mediante texto -->
+                    <p class="estilofoot">
+                            Datos:
+                        <a href="https://shireen.ps/" target="_blank" class="datoslinks">
+                            Shireen.ps 
+                        </a>
+                        <a href="https://www.aljazeera.com/tag/israel-palestine-conflict/" target="_blank" class="datoslinks">
+                            Aljazeera
+                        </a>
+                    </p>
+                    
+                    <!-- añadimos texto y a continuacion añadimos div para añadir en este caso una lista de link mediante imagenes  -->
+                    <p class="estilofoot">
+                        Publicado: 11 de mayo de 2024 <br> <br>
+                        Dirección: Av. Pío XII,2 <br> <br>
+                        Contacto: 640576550 <br> <br>
+                    </p>
+
+                     <!-- añadimos contenedor para añadir dentro links de logos*/ -->
+                    <div>
+                        <a href="https://www.instagram.com/palestinahoy1/"><img src="../imagenes/instagram1.jpeg" width="50" height="50" alt="logotipo link instagram" class="logoinst"></a>
+                        <a href="https://www.facebook.com/PalestinaHoy/?locale=es_ES"><img src="../imagenes/facebooklogo.png" width="50" height="50" alt="logotipo link facebook" class="logoface"></a>
+                        <a href="https://t.me/s/PalestinaHoy"><img src="../imagenes/telegram.png" width="53" height="50" alt="logotipo link telegram" class="logotel"></a>
+                    </div>
+                    
+                    
+                    <!-- añadimos etiqueta span y href para añadir link de politica de terminos -->
+                    <span style="margin-left: 180px;">
+                        <a href="../index.html" data-tooltip-text="Politica de Privacidad" target="_blank" id="politicaprivacidad"  class="estilofoot">
+                            Política de privacidad
+                        </a>
+                        
+                        <span  class="estilofoot" id="barra">   |  </span>
+                        <a href="../index.html" data-tooltip-text="Politica de cookies" target="_blank" id="politicacookies">
+                            Política de cookies
+                        </a>
+
+                        <span role="link" tabindex="0" id="ampstart" class="estilofoot">
+                            Preferencias de cookies
+                        </span>
+                    </span>
+                </div>
+            </section>
+            <!-- cerramos contenedores y a continuacion cerramos footer -->
+      </footer>
+
+</body>
+</html>

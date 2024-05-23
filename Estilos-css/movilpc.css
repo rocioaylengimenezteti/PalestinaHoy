@@ -1,0 +1,1970 @@
+
+      /**********************************************/
+     /********ESTILOS DE TODAS LAS SECCIONES********/
+    /**********************************************/
+
+/*Estilos body de todas las secciones*/
+body{
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  max-width: 100%;
+}
+
+/*Estilos de main de todas las secciones*/
+main{
+  width: 940px;  
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+     /*********************************************************************************************************************/
+    /*************************ESTILOS DE MENU DE NAVEGACION SUPERIOR DE LAS SECCIONES:************************************/
+   /*(index.html,portfolio.html,galeria.html,historias.html,presupuesto.html,contacto.html,Registro.html,registro2.html)*/
+  /*********************************************************************************************************************/
+
+  /*Estilos contenedor menu de navegacion superior*/
+header{
+  list-style-type: none;
+  display: inline-flex;
+  width: 1053px;
+  height: 70px;
+  text-decoration: none;
+  line-height: 1px;
+  z-index: 2;
+  position: relative;
+  background-color: #24292e;
+}
+
+.header2{
+  margin-left: 30px;
+  width: 1900px;
+  margin-left: -452px;
+}
+
+.header3{
+  display: inline-flex;
+  margin-left: 310px;
+}
+/*Estilos de logo en el menu de navegacion*/
+.logopalestina{
+  width: 250px;  
+  height: 70px; 
+  margin-right:160px; 
+  margin-left: -230px;
+}
+/*Estilos de menu de navegacion de items*/
+.estilosmenu{
+  text-decoration: none;
+  word-spacing: 1px;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+}
+
+/*Estilos de menu de navegacion entre items*/
+span{
+  display: flex;
+  margin-top: 35px;
+
+}
+
+  /*Estilos de menu de navegacion para pc*/
+.contenidopc{
+  display: block;
+  margin-left: 157px;
+  font-weight: lighter;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: larger;
+  text-decoration: none;
+  background: none;
+  margin-left: 50px;
+  
+}
+  
+
+  /*Estilos texto de boton de inicio de sesion*/
+.Registro{
+  color:  #24292e;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: -10px;
+  padding-top: 20px;
+  }
+
+   /*Estilos boton inicio de sesion*/
+.iniciosesion{
+  background-color: #fff;
+  border-radius: 28px;
+  border: none;
+  color: #24292e;
+  display: inline-block;
+  height: 26px;
+  padding: 6px 17px;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-top: 16px;
+  text-decoration: none;
+  margin-left: 75px; 
+}
+ /*Estilos de posicion de texto del link href inicio de sesion*/
+.textbutton{
+ margin-top: 12px;
+}
+#textbutton2{
+  font-weight: 700px;
+  margin-top: 10px;
+ }
+  
+
+    /*******************************/
+   /*Estilos de seccion index.html*/  
+  /*******************************/
+
+
+  /*Estilos de segundo menu de navegacion de la seccion index.html*/
+    /*Estilos contenedor del menu*/
+  #main_menu{
+  padding: 0%;
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  width: 100%;
+  margin-top: -30px;
+  background-color: none;
+  margin-left: -50px;
+  margin-top: -4px;
+  background-color: white;
+  width: 1020px;
+  z-index: 2;
+  position: relative;
+  }
+    /*Estilo texto del menu*/
+  .mainmenu{
+    text-decoration: none;
+    line-height: 1.5;
+    margin-left: 190px;
+    color: #000000;
+    font-weight: normal;
+    margin-left: 90px;
+  }
+  /*Estilo items menu */
+  .mainmenu4{
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-size: 22px;
+  }
+
+
+  /*Estilos de posicion del primer section de la primera foto del main*/
+    #textofotoindex{
+      position: relative;
+      display: inline-block;
+    }
+    /*Estilos de tamaño,posicion y opacidad de la primera foto del main*/
+    #text-in-1{
+      width: 100%;
+      margin-left: -670px;
+      height: 1000px;
+      width: 2095px;
+      opacity: 0.8;
+    }
+    /*Estilos de texto de el titulo de la primera foto*/
+    #nombres2-1ind{
+      position: absolute;
+      top: 350px;
+      left: 40px;
+      display: flex;
+      font-size: 3em;
+      text-align: center;
+      font-weight: 550;
+      color: white;
+      font-size: 80px;
+      font-family: 'Anton', sans-serif;
+      margin-left: -70px; 
+      margin-top: -200px;
+      text-shadow: -2px 2px 2px black;
+    }
+    /*Estilos de texto(200 dias de agresion)*/
+    #nombres2ind{
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1.9em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+    margin-top: -100px;
+    text-shadow: -2px 2px 2px black;
+    }
+    /*Estilos de texto de cada dato y titulo de dato por orden de cada texto numerico de la foto de portada del index*/
+    .nombres2-2ind{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+    font-family: 'Anton', sans-serif;
+    margin-top: 90px;
+    text-shadow: -2px 2px 2px black;
+    }
+    .nombres2-3ind{
+      position: absolute;
+      top: 500px;
+      left: 10px;
+      text-align: center;
+      color: white;
+      font-size: 1.9em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 300;
+      font-size: 31px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 160px;
+      text-shadow: -2px 2px 2px black;
+    }
+    .nombres2-4indd{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+      text-align: center;
+      color: white;
+      font-size: 50px;
+      font-family: 'Anton', sans-serif;
+      font-weight: 300;
+      font-family: 'Anton', sans-serif;
+      text-shadow: -2px 2px 2px black;
+      margin-left: 200px;
+      margin-top: 90px;
+    }
+    .nombres2-5ind{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+      text-align: center;
+      color: white;
+      font-size: 1.9em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 300;
+      font-size: 31px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 160px;
+      margin-left: 220px;
+      text-shadow: -2px 2px 2px black;
+    }
+    .nombres2-6ind{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+      text-align: center;
+      color: white;
+      font-size: 1.9em;
+      font-family: 'Anton', sans-serif;
+      font-weight: 300;
+      font-size: 50px;
+      margin-top: 90px;
+      margin-left: 450px;
+      text-shadow: -2px 2px 2px black;
+    }
+    .nombres2-7ind{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+      text-align: center;
+      color: white;
+      font-size: 1.9em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 300;
+      font-size: 31px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 160px;
+      margin-left: 440px;
+      text-shadow: -2px 2px 2px black;
+    }
+    .nombres2-8ind{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+      text-align: center;
+      color: white;
+      font-size: 1.9em;
+      font-weight: 300;
+      font-size: 50px;
+      font-family: 'Anton', sans-serif;
+      margin-top: 90px;
+      margin-left: 700px;
+      text-shadow: -2px 2px 2px black;
+    }
+    .nombres2-9ind{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+      text-align: center;
+      color: white;
+      font-size: 1.9em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 300;
+      font-size: 31px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 160px;
+      margin-left: 680px;
+      text-shadow: -2px 2px 2px black;
+    }
+  /*Estilos de segundo section de texto*/
+  #textoindex3{
+    flex: auto;   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: rgb(249, 247, 247);
+    width: 1902px;
+    height: 1800px;
+    display: flex;
+    margin-left: -477px;
+    margin-top: -4px;
+    text-align: center; 
+  }
+  /*Estilos de texto del segundo contenedor*/
+  #textoindex4{
+    margin-top: 100px;
+    color: #0f0a0a;
+    line-height: 1.8; 
+    text-align: justify; 
+    margin-left: 550px; 
+    margin-right: 550px; 
+    font-size: 20px;
+  }
+  /*Estilos de los textos dentro de la etiqueta strong del segundo section*/
+  .texto-section2{
+    font-size: 23px;
+  }
+
+  /*Estilos de tercer section con esta id*/
+  #contenedorindexfin2{
+    width:1903px; 
+    height: 700px; 
+    margin-left:-477px; 
+    margin-top: -15px;
+  }
+    /*Estilos de titulo dentro del contenedor*/
+    #titulocont-fin{
+      position: relative;
+      text-align: center;
+      color: white;
+      font-size: 32px;
+      text-shadow: -2px 2px 2px black;
+      padding-top: 270px;
+      padding-bottom: 50px;
+    }
+    /*Estilos boton dentro del contenedor*/
+    #botonindex-cont{
+      position: relative;
+      margin-left: 815px;
+      width: 200px;
+      height: 50px;
+      border-radius: 15px;
+    }
+    /*Estilos de texto del boton*/
+    #botonhistoria{
+      color: black;
+      list-style: none;
+      margin-bottom: -10px;
+      border-radius: 15px;
+      width: 200px;
+      height: 60px;
+    }
+    /*Estilos de imagen dentro del contenedor*/
+    #imagencont-index{
+      position: absolute;
+      margin-left: -952px ;
+      width: 1904px;
+      height: 705px;
+      margin-top: -4px;
+      opacity: 0.7;
+    }
+    /**********************************/
+   /*Estilos de seccion noticias.html*/
+  /**********************************/
+
+  /*Estilos de tamaño del main*/
+  #mainnoticias{
+    height: 2300px;
+  }
+  /*Estilos titulo de la seccion noticias*/
+  #titulonot{
+    color: black;
+    margin-left: 130px;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+/*Estilos de posicion y tamaño del contenedor div que engloba todos los articulos*/
+#noticias-cont{
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: auto;
+  position: relative;
+  background-color: white; 
+  height: 800px;
+  width: 2400px; 
+  margin-left: -110px;
+}
+
+/*Estilos del primer y segundo ul*/
+.estiloslista{
+  list-style: none;
+}
+/*Estilos del contenedor del primer article*/
+#contenedor-art1{
+  background-color: white; 
+  width: 600px; 
+  height: 700px;
+}
+  /*Estilos del texto de figcaption (titulo) de el articulo 1*/
+  #text-not{
+    margin-left: -30px;
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+  /*Estilos de video de el articulo1*/
+  #img-not{
+    margin-left: -40px;
+    width: 550px; 
+    height: 390px; 
+    }
+    /*Estilo de texto de debajo del titulo de cada imagen*/
+  .text-art-not{
+    margin-top: 0px;
+    text-align: justify;
+    width: 600px;
+    margin-left: 0px;
+    color: black;
+    font-size: 19px;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+/*Estilos de href de los li*/
+  .href-estilos{
+    text-decoration: none;
+  }
+
+/*Estilos de contenedor del segundo articulo*/
+#contenedor-art2{
+  width: 540px;
+  height: 200px;
+  background-color: white;
+  margin-left: 620px;
+  margin-top: -716px;
+}
+
+/*Estilos de contenedor del tercer articulo*/
+#contenedor-art3{
+  width: 540px;
+  height: 200px;
+  background-color: white;
+  margin-left: 620px;
+  margin-top: 50px
+}
+
+/*Estilos de contenedor del cuarto articulo*/
+#contenedor-art4{
+  width: 540px;
+  height: 200px;
+  background-color: white;
+  margin-left: 620px;
+  margin-top: 50px
+}
+
+/*Estilos de texto href de los articulos con esta clase*/
+.texto2-not{
+  position: relative;
+  margin-left: 180px;
+  margin-right: -20px;
+  text-align: justify;
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+/*Estilos de posicion de imagen de los articulos con esta clase*/
+.img-arts{
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  margin-left: -39px;
+}
+
+/*Estilos de texto inferior al href de los articulos con esta clase*/
+.text-arts-not{
+  position: relative;
+  left: 220px;
+  background-color: white;
+  color: black;
+  text-align: justify;
+  width: 350px;
+  margin-left: 0px;
+}
+
+/*Estilos bloque gris*/
+#bloquegris{
+text-align: center;
+width: 1205px;
+margin-top: 90px;
+margin-bottom: 90px;
+margin-left: -112px;
+border-top: 30px solid #F7F7F7; 
+}
+
+/*Estilos div segundo contenedor que engloba los demas articulos*/
+#cont2-not{
+  background-color: white;
+  width: 1205px;
+  height: 1070px;
+  margin-left: -112px;
+}
+
+  /*Estilos primer articulo del segundo contenedor*/
+  #cont-not2{
+    background-color: white;
+    width: 1205px;
+    height: 250px;
+  }
+
+  /*Estilos segundo articulo del segundo contenedor*/
+  #cont-not3{
+    background-color: white;
+    width: 1205px;
+    height: 250px;
+  }
+
+  /*Estilos tercer articulo del segundo contenedor*/
+  #cont-not4{
+    background-color: white;
+    width: 1205px;
+    height: 250px;
+  }
+
+  /*Estilos cuarto articulo del segundo contenedor*/
+  #cont-not5{
+    background-color: white;
+    width: 1205px;
+    height: 250px;
+  }
+
+  /*Estilo posicion de fotos de las imagenes del segundo contenedor*/
+  .foto2con{
+    width: 300px;
+    height: 250px;
+    margin-left: 864px;
+   
+  }
+
+  /*Estilos de titulos href de segundo contenedor*/
+  .titulo-2cont{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: -240px;
+    margin-left: -36px;
+    color: black;
+  }
+
+  /*Estilos de texto de debajo del href del segundo contenedor de todos los li*/
+  .textcont2{  
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    text-align: justify;
+    margin-left: 0px;
+    width: 750px;
+
+  }
+
+
+    /*********************************/
+   /*Estilos de seccion galeria.html*/
+  /*********************************/
+
+  /*Estilo de texto de titulos h1 y h2 galeria*/
+#textogaleria{
+  color: rgb(112, 109, 109);
+  font-size: 20px;
+}
+#texto-galeria{
+  color: rgb(112, 109, 109);
+  font-size: 15px;
+}
+  /*Estilo de posicion del textoenfasis*/
+#textogaleria1{
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+  /*Estilo de texto de el articulo (em)*/
+#textoenfasis{
+  font-style: italic;
+  font-size: 20px;
+  color: #595959;
+  font-family: "Georgia", "Times", "Times New Roman", serif;
+}
+
+   /*Estilo de posicion del texto main */
+#galeria2{
+  line-height: 1.3;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  margin-left: 60px;
+}
+
+  /*Estilos del texto galeria2*/
+#textogaleria2{
+  text-align: justify;
+  width: 840px;
+  margin-left: 0px;
+  color: #000;
+  font-size: 20px;
+  font-family: "Georgia","Times","Times New Roman",serif !important;
+}
+/*Estilos de posicion de fotos con esta class*/
+.posiciongal{
+  margin-left: 50px;
+}
+  /*Estilos de posicion de las fotos*/
+.estiloscont{
+  width: 100%;
+  margin-top: 160px;
+}
+  /*Estilos de texto inferior a las fotos*/
+.estilotextogal{
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 100px;
+  color: #777777;
+}
+/*Estilos de posicion del ultimo figcaption con esta class*/
+#galfin{
+  margin-bottom: 100px;
+}
+
+    /***********************************/
+   /*Estilos de seccion portfolio.html*/
+  /***********************************/
+
+  #bodyportfolio{
+    background-image: url(sectiontext.png);
+  }
+  /*Estilos de texto de titulo principal*/
+  #titulo1{
+    color: white;
+    margin-left: 300px;
+    flex: auto;
+    font-size: 32px;
+    line-height:120px;
+    font-family: "Raleway", sans-serif;
+  }
+
+   /*Estilos del texto debajo del titulo*/
+  #textomartir{
+    color: white; 
+    text-align: center; 
+    margin-top: 40px; 
+    margin-bottom: 30px; 
+    font-size: 22px; 
+    line-height: 1.2;
+  }
+  
+  /*Estilos, posicion y tamaño del articulo (section) que contiene dentro todos los (article)*/
+  #galeria {
+    margin: 1rem auto;
+    margin-top: 100px;
+    height: 5000px;
+    width:1700px;
+    max-width:1100px;
+    column-count: 3; /*Los contenidos se reparten en tres columnas*/
+    break-inside: avoid;
+    page-break-inside: avoid;
+    -moz-column-rule: 0px solid;
+    -webkit-column-rule: 0px solid;
+    column-rule: 0px solid ;
+    -webkit-column-span:all;
+    column-span:all;
+    margin-left: -190px;
+  }
+  /*Estilos posicion article1 con esta id*/
+  #posicionarticle1{
+    margin-top: -16px;
+  }
+  /*Estilos de los contenedores de cada imagen*/
+  .articulosmart{
+    background-image: url(sectiontext.png); 
+    height:380px;
+    width: 380px;
+    border-radius: 0px;
+    margin-left: 80px;
+    margin-top: -18px;
+  }
+  
+  /*Estilos del texto de figcaption de debajo de cada imagen*/
+  .text-mart{
+   text-decoration: none;
+   color: white;
+  }
+  
+  /*Estilos de cada imagen de la etiqueta article*/
+  .img-mart{
+   margin-top: 25px; 
+   }
+
+
+
+    /*************************************/
+   /*Estilos de seccion presupuesto.html*/
+  /*************************************/
+/*Establecemos altura de la seccion main*/
+  #main-form{
+    height: 1400px;
+  }
+
+/*Posicion del contenedor de la foto superior del main*/
+  #fondoform{
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    margin-top: -9px;
+  }
+
+/*Establecemos tamaños y posicion de la foto  superior del main*/
+  #foto1form{
+    width: 100%;
+    margin-left: -670px;
+    height: 600px;
+    width: 2095px;
+    margin-bottom: -130px;  
+  }
+
+  /*Estilos de texto inferior al titulo*/
+  #textinf{
+    color: black;
+  }
+
+/*Establecemos estilos del contenedor del formulario*/
+  #container{
+    height: 900px;
+    width: 750px;
+    background-color: white;
+    margin-left: -145px;
+    position: absolute;
+  }
+
+  /*Establecemos estilos del contenido de dentro del formulario*/
+  #row{
+    margin-top: 405px;
+  }
+ /*Espacio superior del bloque negro y el bloque invisible*/
+  .contbloque{
+    top: 50px;
+  }
+/*Añadimos bloque invisible para dejar espacio superior*/
+  #bloquenegro{
+    text-align: center;
+    margin-top: 50px;
+    width: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-top: 7px solid white; 
+}
+/*Añadimos bloque negro superior y establecemos estilos*/
+#bloquenegro2{
+  text-align: center;
+  margin-top: 50px;
+  width: 50px;
+  margin-top: -440px;
+  margin-bottom: 40px;
+  border-top: 7px solid #444343; 
+  margin-left: 85px;
+}
+
+/*Estilos titulo de formulario*/
+#tituloformul{
+  font-size: 45px;
+  padding-bottom: 0px;
+  color: #444343;
+  border-bottom: 0px;
+  font-family: "Roboto",Arial,sans-serif;
+  margin-top: -10px; 
+  margin-left: 80px;
+}
+/*Estilos de posicion del texto inferior al titulo*/
+#nombrebody{
+  margin-top: -10px;
+  margin-left: -210px;
+}
+/*Estilos de posicion y tamaño de la imagen de la estrella roja de los items*/
+.estrella{
+  margin-top: -20px;
+  width: 10px;
+  height: 7px;
+  margin-bottom: 6px;
+  margin-left: -1.5px;
+}
+
+/*Estilo de posicion de los inputs (nombre,correo electronico y asunto)*/
+.edit-items{
+  width: 570px; 
+  height: 45px; 
+  margin-top: 10px
+}
+/*Estilos posicion primer label (nombre)*/
+#form-item{
+  margin-top: -10px;
+  margin-left: 85px;
+  margin-bottom: 20px;
+}
+/*Estilos posicion segundo label (correo electronico)*/
+#form-mail{
+  margin-top: -10px;
+  margin-left: 85px;
+  margin-bottom: 20px;
+}
+/*Estilos tercel label (telefono)*/
+#form-telf{
+  margin-top: -10px;
+  margin-left: 85px;
+  margin-bottom: 20px;
+}
+
+/*Estilos posicion cuarto label (asunto)*/
+#form-asunto{
+  margin-top: -10px;
+  margin-left: 85px;
+  margin-bottom: 20px;
+}
+
+/*Estilos posicion quinto label (mensaje)*/
+#form-mensaje{
+  margin-top: -10px;
+  margin-left: 85px;
+  margin-bottom: 20px;
+}
+  /*Estilos tamaño y posicion quinto label (mensaje)*/
+  #text-area{
+    width: 570px; 
+    height: 155px; 
+    margin-top: 10px;
+  }
+
+  /*Estilos de checkbox*/
+#checkbox{
+  margin-left: 80px; 
+  margin-bottom: -50px;
+}
+
+/*Estilos de posicion del boton (enviar mensaje)*/
+#enviar{
+  margin-top: 120px;
+  margin-left: 90px;
+}
+  /*Estilos del boton (enviar mensaje)*/
+  #edit-submit{
+    background-color: #fba931;
+    border: 0;
+    border-radius: 0;
+    font-size: 16px;
+    padding: 10px 20px 6px;
+    color: #323232;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+
+
+     /**********************************/
+   /*Estilos de seccion contacto.html*/
+  /**********************************/
+/*Estilos de main*/
+#maincontacto{
+  margin: 0;
+}
+/*Estilos de posicion del contenedor donde esta el mapa*/
+#mapa-ub{
+  margin-left: 450px;
+  margin-top: -6px;
+}
+/*Estilos de mapa*/
+#mapa2ub{
+  width: 999px;
+  height: 860px;
+  border: 0px;
+}
+
+/*Estilos de posicion del primer dato de direccion*/
+#textoub1{
+  font-size: 26px;
+  margin-left: 40px;
+}
+/*Estilos de contenedor donde estan los datos de empresa*/
+#inf-ub{
+  background-color: #F7F7F7; 
+  width: 900px; 
+  height: 860px; 
+  margin-left: -452px; 
+  margin-top: -880px;
+}
+/*Estilos de texto de primer dato de empresa*/
+#inf1-ub{
+  color: black;
+  margin-left: -390px;
+}
+/*Estilos de todos los datos con esta clase*/
+.inf2-ub{
+  text-align: justify;
+  margin-left: 100px;
+  font-size: 25px;
+  color: black;
+
+} 
+
+    /**********************************/
+   /*Estilos de seccion Registro.html*/
+  /**********************************/
+
+  /*Estilos de posicion contenedor del formulario izquierdo*/
+#contenedorcuenta{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+#maincontenidoarea{
+  display: flex;
+  flex-direction: row;
+}
+
+/*Estilos de contenedor de formulario izquierdo*/
+#registroform{
+  width: 600px;
+  height: 1000px;
+  margin-left: -100px;
+  background-color: white;
+  text-decoration: none;
+  border: 0px;
+}
+
+/*Estilos titulo h1 formulario*/
+#textoformu{
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+/*Estilos contenedor input email*/
+#contenidoemail{
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+/*Estilos input email*/
+#areacorreo{
+  width: 470px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+  opacity: 1;
+}
+
+/*Estilos contenedor input email*/
+#contenidopassword{
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+/*Estilos input email*/
+#areapassword{
+  width: 470px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #bebebe;
+  opacity: 1;
+}
+
+/*Estilos de texto de privacidad*/
+#privacidad{
+  margin-left: 0px;
+  font-size: 15px;
+  color: #595959;
+  text-align: justify;
+}
+
+/*Estilos de boton de continuar*/
+#botoncontinuar{
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 22px;
+  opacity: 1;
+  height: 44px;
+  width: 200px;
+  background-color: #595959;
+  border: none;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*Estilos contenedor derecho*/
+#textodosreg{
+  width: 1200px;
+  height: 1000px;
+  background-color: #f7f7f7;
+  margin-right: -240px;
+}
+
+  /*Estilos primer texto h2 contenedor derecho*/
+#textinicio{
+  margin-top: 80px;
+  margin-left: 60px;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+  /*Estilos texto inferior al titulo de contenedor derecho*/
+#textoinicio2{
+  color: black;
+  margin-left: -375px;
+  margin-top: -70px;
+}
+
+  /*Estilo de titulos de items del contenedor derecho*/
+.tituloitems{
+  margin-top: 30px;
+  color: black;
+  text-align: justify;
+  margin-left: 117px;
+}
+
+  /*Estilo de textos inferiores a titulos de items del contenedor derecho*/
+.textitems{
+  color: black;
+  text-align: justify;
+  margin-top: -10px;
+}
+
+
+
+
+                    /************************************/
+                   /*******Estilos nombres2.html/*******/
+                  /************************************/
+
+/*Estilos fondo main seccion nombres2.html*/
+#bodynombres{
+  background-image: url(sectiontext.png);
+}
+
+/*Estilos de posicion contenedor de primera foto del main*/
+#textofotonom{
+  position: relative;
+  display: inline-block;
+}
+
+/*Estilos de tamaño,posicion y opacidad de la primera foto del main*/
+#nombres1{
+  width: 100%;
+  margin-left: -670px;
+  height: 1000px;
+  width: 2095px;
+  opacity: 0.8;
+}
+ /*Estilos de texto de el titulo de la primera foto*/
+#nombres2-1{
+position: absolute;
+top: 350px;
+left: 40px;
+display: flex;
+font-size: 3em;
+text-align: center;
+font-weight: 550;
+color: white;
+font-size: 100px;
+font-family: 'Anton', sans-serif;
+}
+
+/*Estilos de posicion, tamaño, texto del subtitulo de la primera foto*/
+#nombres2-2{
+position: absolute;
+top: 500px;
+left: 30px;
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 1.9em;
+font-family: 'Playfair Display', serif;
+font-weight: 300;
+font-size: 31px;
+font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilos de posicion de articulo 2 de main nombres*/
+#articulonombres2{
+  flex: auto;
+  line-height: 1.5;
+  margin-top: 300px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-image: url(sectiontext.png);   
+}
+
+/*Estilos de texto de articulo 2 de main nombres*/
+.texto1{
+  flex: auto;   
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+/*Estilos de video y texto del video*/
+
+    /*Estilos contenedor*/
+    #imagen1{
+      width: 100%;
+      height: 1000px;
+      margin-top: 350px;
+    }
+    /*Estilos texto superior al video*/
+    #textoimagen{
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      margin-left: 0px;
+      color: white;
+    }
+    /* Estilos primer texto inferior del video*/
+    #textoimagen1{
+      width: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      margin-left: 0px;
+      font-size: 18px;
+    }
+    /*Estilos segundo texto inferior del video*/
+    #textoimagen2{
+      flex: auto;
+      width: 100%;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 18px;
+      margin-left: 0px;
+    }
+ 
+/*Estilo posicion segunda foto de main nombres*/
+#textofoto2hist{
+  position: relative;
+  display: inline-block;
+}
+  /*Estilo segunda foto de main nombres*/
+    #articulonombres3{
+      margin-left: -670px;
+      height: 1000px;
+      width: 2095px;
+      opacity: 0.8;
+    }
+  /*Estilo de texto encima de la segunda foto de main nombres*/
+    #texto2{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-size: 1.9em;
+      font-family: 'Playfair Display', serif;
+      font-weight: 300;
+      font-size: 31px;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 50px;
+    }
+
+
+/*Estilos titulos de la edad de todos los articulos*/
+.edadtitulo{
+  flex: auto;
+  text-align: center;
+  height: 800px;
+  margin-top: 600px;
+  margin-bottom: -400px;
+  background-image: url(sectiontext.png); 
+}
+
+/*Estilos de texto de edad y texto inferior*/
+.edadtext1{
+  position: relative;
+  font-size: 35px;
+  flex: auto;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Estilos de tamaño de texto de titulo edad*/
+.edadtittle{
+  
+  font-size: 85px;
+  color: white;
+}
+
+/*Estilo de posicion de todos los textos de la seccion main nombres2*/
+p{
+  flex: auto;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;              
+}  
+
+/*Estilos bloque rojo de debajo de cada articulo de nombres*/
+.bloquerojo{
+    text-align: center;
+    margin: 0% auto;
+    width: 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-top: 7px solid rgb(230, 61, 61); 
+}
+/*Estilos texto bloques rojos*/
+.textobloque{
+  flex: auto;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  background-image: url(sectiontext.png);
+  color: white;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: x-large;   
+}
+
+/*Estilo bloque rojo final de main*/
+#bloquerojo2{
+  text-align: center;
+  margin: 0% auto;
+  width: 50px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  border-top: 7px solid rgb(230, 61, 61); 
+}
+/*Estilo texto bloquerojo2*/
+#textobloque5{
+ font-size: 60px;
+ line-height: 120%;   
+ color: white;
+ margin: 1.5em 20px;
+ text-align: center;
+ margin-inline-start: 10px;
+ margin-inline-end: 10px;
+ font-family: 'Playfair Display', serif;
+ height: 450px;
+}
+
+
+
+                  /*****************************************/
+                 /*******Estilos seccion mapa.html*********/
+                /*****************************************/
+
+/*Posicion del primer contenedor de la seccion */
+#textomapa{
+  position: relative;
+  display: inline-block;
+  line-height: 1.5;
+}
+/*Estilos, posicion, tamaño de la foto del primer contenedor*/
+#mapafoto1{
+  width: 100%;
+  margin-left: -670px;
+  height: 1000px;
+  width: 2095px;
+  opacity: 0.8;
+}
+/*Estilos de texto del titulo encima de foto de portada*/
+#textomapa1{
+position: absolute;
+top: 250px;
+left: -30px;
+display: flex;
+font-size: 3em;
+text-align: center;
+font-family: 'Playfair Display', serif;
+font-weight: 550;
+color: white;
+}
+/*Estilos de subtexto de la foto de portada*/
+#textomapa2{
+position: absolute;
+top: 350px;
+left: 60px;
+text-align: center;
+color: rgb(255, 255, 255);
+font-size: 1.9em;
+font-family: 'Playfair Display', serif;
+font-weight: 300;
+}
+
+/*Estilos del segundo contenedor*/
+#textomapa3{
+    flex: auto;   
+     font-family: 'Montserrat', sans-serif;
+     font-size: 18px;
+     background-color: rgb(249, 247, 247);
+     width: 1902px;
+     height: 750px;
+     display: flex;
+     margin-left: -477px;
+     margin-top: -4px;
+     text-align: center; 
+}
+/*Estilos de texto del segundo contenedor*/
+.textomapa4{
+  margin-top: 100px;
+  color: #0f0a0a;
+  line-height: 1.5;
+}
+
+/*Estilos de video 1 seccion mapa*/
+#containervideo{
+margin-top: 50px;
+margin-bottom: 100px;
+margin-left: 80px;
+}
+/*Estilos de texto del contenedor donde esta el primer video*/
+#videotexto2{
+  margin-bottom: -400px;
+  font-family: "Georgia", serif;
+}
+/*Estilos de texto del titulo principal del contenedor donde esta el primer video*/
+#textovideo2{
+ margin-top: 300px;
+}
+/*Estilos del contenedor donde esta el primer video*/
+#video{
+  line-height: 1.5;
+  color: #fafafa;
+  background: #191a1a;
+  height: 780px;
+  width: 750px;
+  font-family: "Georgia", serif;
+}
+/*Estilos de texto y posicion del titulo donde esta el primer video*/
+#textovideo2-1{
+  margin-bottom: 0px;
+  margin-left: 200px; 
+  margin-top: 20px; 
+  font-family: 'Playfair Display', serif; 
+  font-size: 40px;
+}
+/*Estilos de posicion del primer video*/
+#video1{
+  margin-left: 50px;
+}
+/*Estilos de texto de la etiqueta span del contenedor donde esta el primer video*/
+#videotexto{
+  margin-top: 420px;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 150px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  width: 500px;
+}
+/*Estilos de texto descriptivo del video1*/
+#textvideomapad{
+  font-size: 15px; 
+  text-align: unset;
+  margin-top: 220px;
+  width: 840px;
+  margin-left: -320px;
+}
+/*Estilos contenedor de todos los contenedores con etiqueta article de seccion mapa*/
+.textomapa6{
+  flex: auto;   
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: rgb(249, 247, 247);
+  width: 1902px;
+  height: 780px;
+  display: flex;
+  margin-left: -477px;
+  margin-top: -4px;
+  text-align: center;
+}
+/*Estilos de texto de todos los contenedores con etiqueta article seccion mapa*/
+.textomapa7{
+  margin-top: 100px;
+  color: #0f0a0a;
+  line-height: 1.5;
+}
+/*Estilos de posicion de todos los contenedores donde esta esta class seccion mapa*/
+.containervideo1{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: -300px;
+}
+/*Estilos de posicion del contenedor con esta id*/
+#container1video{
+  margin-left: -10px;
+}
+/*Estilos de posicion titulo h2 y texto span dentro del contenedor donde esta el segundo video*/
+#videotexto3-1{
+  margin-bottom: -400px;
+  margin-top: -30px;
+  font-family: "Georgia", serif;
+  margin-left: 90px;
+  margin-right: 70px;
+  width: 200px;
+  font-size: 19px;
+  text-align: center;
+}
+/*Estilos de texto y posicion del titulo donde esta el segundo video*/
+#textovideo-2{
+  margin-left: 300px; 
+  margin-bottom: 0px;
+  margin-top: 20px; 
+  font-family: 'Playfair Display', serif; 
+  font-size: 40px;
+}
+/*Estilos de posicion de contenedor de h2 donde esta el segundo video*/
+.textovideo3{
+  margin-top: 300px;
+}
+
+/*Estilos de posicion de segundo video*/
+#video4{
+  margin-left: 80px;
+  margin-top: 480px;
+  line-height: 1.5;
+}
+/*Estilos de texto de descripcion del video*/
+#video2est{
+  font-size: 13px; 
+  text-align: unset; 
+  margin-top: 560px; 
+  width: 970px;
+  margin-left: -400px;
+  margin-bottom: -550px;
+
+}
+/*Estilos de contenedor donde se encuentra el segundo video*/
+#video2{
+  color: #fafafa;
+  background: #191a1a;
+  height: 1130px;
+  width: 950px;
+  font-family: "Georgia", serif;
+  line-height: 1.5
+
+}
+
+/*Estilos de contenedor donde se encuentra este id*/
+#videom-1{
+  color: #fafafa;
+  background: #191a1a;
+  height: 2000px;
+  width: 1180px;
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+}
+/*Estilos de titulo h2 del contenedor del segundo video*/
+.videotexto3{
+  margin-top: 420px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: ridge;
+  border: 3px;
+}
+
+/*Estilos de contenedor con esta id*/
+.imagen4{
+  margin-left: 80px;
+  color: black;
+  background: white;
+  height: 2700px;
+  width: 1250px;
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+  
+ }
+/*Estilos de contenedor  de la etiqueta h2 en la que se encuentra este id*/
+.videotexto4{
+  margin-bottom: -400px;
+  font-family: "Georgia", serif;
+  margin-top: 420px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: ridge;
+  border: 3px;
+}
+/*Estilos de posicion de texto que se encuentra dentro de la etiqueta span del articulo hospital al-shifa*/
+.textovideo4{
+ margin-top: 300px;
+ width: 1500px;
+}
+/*Estilos de titulo con esta id*/
+#hospitaltitle{
+  margin-left: 100px; 
+  margin-top: 20px; 
+  font-family:'Montserrat', sans-serif; 
+  font-size: 40px;
+  color: black;
+} 
+/*Estilos de primer texto con esta id, en este caso el primer parrafo del hospital alshifa*/
+#hospitaltexto1{
+  color: black;
+  text-align: justify; 
+  margin-left: 100px; 
+  line-height: 1.2; 
+  font-family: 'Montserrat', sans-serif;
+} 
+
+/*Estilos de la segundo imagen del hospital alsiha*/
+#imagen2hospital{
+  margin-left:120px; 
+  height: 700px; 
+  width: 1170px;
+  margin-top: 50px;
+} 
+
+/*Estilos de titulo con este id*/
+#hambretittle{
+  color: black;
+  margin-left: 100px;
+  margin-top: -100px; 
+  font-family:'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; 
+  font-size: 40px; 
+  margin-bottom: -100px;
+} 
+/*Estilos de texto de primer parrafo con esta id*/
+#hambretexto-1{
+  text-align: justify; 
+  margin-left: 100px; 
+  line-height: 1.2; font-family: 'Montserrat', sans-serif; 
+  margin-bottom: 40px; margin-top: -100px;
+  color: black;
+} 
+
+/*Estilos de segundo titulo(niños muriendo de hambre)*/
+#titulo2hambre{
+  color: black;
+  margin-left: -400px; 
+  margin-top: 20px; 
+  margin-bottom: 0px;
+  font-family:'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; 
+  font-size: 35px;
+} 
+
+/*Estilo de tercer titulo (No hay bebes de tamaño normal)*/
+#titulo3hambre{
+  color: black;
+  margin-left: -400px; 
+  margin-top: 20px; 
+  font-family:'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; 
+  font-size: 35px;
+  margin-bottom: 0px;
+} 
+
+/*Estilos imagen con esta id*/
+#textoimghambre{
+  font-size: 13px; 
+  text-align: unset;
+  margin-top: 50px; 
+  margin-bottom: -80px; 
+  color: black; 
+  margin-left: 15px;
+} 
+/*Estilos de imagen con esta id*/
+#imghambruna{
+  margin-left: 135px; 
+  height: 700px; 
+  width: 1170px;
+} 
+
+/*Estilos de contenedor con esta id (masacre harina)*/
+#containerharina{
+  margin-left: -88px; 
+  margin-top: -600px;
+} 
+/*Estilos de titulo del video de masacre de la harina*/
+#harinatittle{
+  margin-left: 80px; 
+  margin-top: 20px; 
+  margin-bottom: 0px;
+  font-family: 'Playfair Display', serif; 
+  font-size: 40px;
+} 
+/*Estilos de texto de contenedor masacre de la harina*/
+#textharina{
+  line-height: 1.2; 
+  margin-top: -50px; 
+  margin-left: 75px;
+} 
+/*Estilos de texto descriptivo del video de masacre de la harina*/
+#videoharina-1{
+  font-size: 13px; 
+  text-align: unset; 
+  margin-top: 50px; 
+  margin-bottom: -40px;
+} 
+/*Estilos de video de la masacre de la harina, ultimo video*/
+#video4-1{
+  margin-left: 195px;
+  line-height: 1.5;
+}
+
+
+                     /********************************************/
+                    /*********Estilos Historia.html *************/
+                   /********************************************/
+
+
+/*Posicion del primer contenedor de la seccion */
+#textomapa-his{
+  margin-right: -100px;
+  position: relative;
+  display: inline-block;
+  }
+  /*Estilos, posicion, tamaño de la foto del primer contenedor*/
+  #mapafoto-his{
+    width: 100%;
+    margin-left: -670px;
+    height: 1200px;
+    width: 2095px;
+    opacity: 0.8;
+  }
+
+/*Estilos de texto posicionado encima de la imagen principal*/
+#textohist1{
+  position: absolute;
+  top: 250px;
+  left: -300px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 300;
+}
+/*Estilos de contenedor y posicion de texto la etiqueta article con esta id*/
+#textohistoria3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: rgb(246, 246, 246);
+  width: 1902px;
+  height: 400px;
+  margin-left: -477px;
+  margin-top: -110px;
+  text-align: center;
+  margin-bottom: 200px;
+  line-height: 1.4; 
+}
+/*Estilos de texto de los contenedores article con esta clase*/
+.textohistoria4{
+display: flex;
+margin-top: 100px;
+color: #0f0a0a;
+}
+/*Estilos de contenedores con esta id*/
+#textohistoria5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: white;
+  width: 1202px;
+  height: 3400px;
+  margin-left: -477px;
+  margin-top: -110px;
+  text-align: justify;
+  margin-bottom: 200px;
+  line-height: 1.5;
+  margin-left: 0px;
+}
+/*Estilos de contenedor con este id*/
+#textohistoria3-1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: rgb(246, 246, 246);
+  width: 1902px;
+  height: 650px;
+  margin-left: -477px;
+  margin-top: -110px;
+  text-align: center;
+  margin-bottom: 200px;
+  line-height: 1.4; 
+}
+/*Estilos de posicion y texto de la etiqueta p que contengan esta class*/
+.textohistoria6{
+  display: flex;
+  margin-top: 100px;
+  color: #0f0a0a;
+}
+/*Estilos de el contenedor con este id*/
+#containerhist{
+  text-align: justify;
+  background-color: #282e38;
+  width: 800px;
+  height: 1100px;
+  margin-top: 400px;
+  margin-left: 10px;
+}
+/*Estilos subcontenedor de el contenedor containerhist*/
+#arthis{
+  text-align: justify;
+  background-color: #282e38;
+  margin-left: 0px;
+  line-height: 1.5;
+}
+/*Estilos del h2 de el contenedor containerhist*/
+#titulohist{
+  padding-top: 15px;
+  margin-left: -120px;
+  color: #fafafa;
+}
+/*Estilos del h2 de containerhist*/
+#titulohis{
+  margin-left: 200px; 
+  font-family: 'Playfair Display', serif; 
+  font-size: 40px;
+}
+/*Estilos del primer y segundo parrafo etiqueta span del contenedor containerhist*/
+.article3{
+  text-align: justify;
+  background-color: #282e38;
+  color: white; 
+  margin-left: 30px; 
+  margin-right: 30px;
+}
+/*Estilos de imagen dentro del contenedor containerhist*/
+#imagenhistoria{
+  height: 450px;
+  margin-left: 40px;
+}
+
+/*Estilo de contenedor con esta id*/
+#seisdiascont{
+ margin-top: 120px;
+}
+
+/*Estilos de foto con esta id*/
+#fotoasentamientos{
+  width: 1000px; 
+  margin-left: -200px;
+}
+/*Estilos de foto con esta id*/
+ #mapaasentamientos{
+  width: 1000px; 
+  margin-left: -220px;
+}
+
+/*Estilos de texto de los articulos con esta clase de la parte de nakba*/
+.nakba1{
+  width: 900px;
+  line-height: 1.4;
+  display: flex;
+  color: #0f0a0a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+/*Estilos de contenedores con esta id*/
+#textohistoria5-1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  background-color: white;
+  width: 1202px;
+  height: 7500px;
+  margin-left: -477px;
+  margin-top: 100px;
+  text-align: justify;
+  margin-bottom: 200px;
+  line-height: 1.5;
+  margin-left: 0px;
+}
+
+
+
+        /*************************************************/
+       /*************Estilos de libano.html**************/
+      /*************************************************/
+/*Posicion del primer contenedor de la seccion */
+#fotolibano{
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+}
+/*Estilos de posicion de titulo (los ataques)*/
+#titulo1libano{
+  margin-top: 150px;
+}
+  /*Estilos, posicion, tamaño de la foto del primer contenedor*/
+#libanofoto1{
+  width: 100%;
+  margin-left: -670px;
+  height: 1000px;
+  width: 2090px;
+  opacity: 1;
+}
+  /*Estilos de texto del titulo encima de foto de portada*/
+#textolibano1{
+  position: absolute;
+  top: 250px;
+  left: -100px;
+  display: flex;
+  font-size: 52px;
+  text-align: center;
+  font-weight: 550;
+  color: white;
+  margin-left: 220px; 
+  margin-top: 150px; 
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial' sans-serif;
+}
+/*Estilos contenedor con este id*/
+#libanoart1{
+  border-bottom: 1px; 
+  border-color: rgb(208, 204, 204); 
+  border-style: groove; 
+  border-top: none; 
+  border-right: none; 
+  border-left: none;
+}
+/*Estilos de texto del contenedor con el id libanoart*/
+#libanoart1text{
+  color: black; 
+  line-height: 1.5;
+  text-align: justify; 
+  font-size: 20px; 
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif !important;
+}
+
+/*Estilos segundo contenedor y texto interno del contenedor*/
+#libanoart2{
+  text-align: center justify; 
+  font-size: 21px; 
+  margin-left: 110px;  
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif !important;
+}
+/*Estilos de texto del segundo contenedor*/
+#libanoart2text{
+  text-align: justify; 
+}
+
+      /******************************************/
+     /*Estilos de footer de todas las secciones*/
+    /******************************************/
+  /*Estilos del contenedor */
+.footer1{
+  background-color: #24292e;
+  height: 670px;
+  width: 1911px;
+  margin-left: -460px;
+}
+/*Estilos de posicion de href del logo principal*/
+#logoposicion{
+  margin-left: 490px;
+}
+/*Estilos del logo de la pagina web detro del footer*/
+.footlogo{
+  margin-left: 190px;
+  margin-right: -700px;
+}
+/*Estilos de logo de la pagina en el footer*/
+.logoolivo{
+  width: 100px;
+  height: 100px;
+  margin-left: 95px;
+  margin-top: 50px;
+}
+/*Estilos de posicion del subcontenedor*/
+.containerfoot{
+  margin: 0 auto;
+  max-width: 750px;
+  margin-left: 120px;
+}
+/*Estilos de texto dentro del contenedor*/
+.estilofoot{
+  text-decoration: none;
+  color: #999999;
+  line-height: 1.2;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 35px;
+}
+/*Estilos de posicion y texto de politica de privacidad*/
+#politicaprivacidad{
+  margin-left: 180px; 
+  color: #ffffff;
+  text-decoration: underline; 
+  font-weight: normal;
+}
+/*Estilos de posicion y texto de politica de cookies*/
+#politicacookies{
+  color: #ffffff; 
+  text-decoration: underline; 
+  font-weight: normal; 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 18px;
+}
+/*Estilos de posicion de preferencia de cookies*/
+#ampstart{
+  margin-top: 0px;
+  margin-left: 15px;
+}
+/*Estilos de posicion del link de instagram*/
+.logoinst{
+  width: 50px; 
+  height: 50px;
+  margin-left: 525px;
+  border-radius: 7px;
+}
+/*Estilos de posicion del link de telegram*/
+.logotel{
+  width: 53px; 
+  height: 50px;
+  margin-left: 30px;
+  border-radius: 7px;
+}
+/*Estilos de posicion del link de facebook*/
+.logoface{
+  width: 50px; 
+  height: 50px;
+  margin-left: 30px;
+  border-radius: 7px;
+}
+/*Estilos de posicion de links de datos*/
+.datoslinks{
+  color: #ffffff; 
+  text-decoration: underline;
+  margin-right: 8px;
+}
+
+#barra{
+  margin-top: 0px;
+}
+ 
